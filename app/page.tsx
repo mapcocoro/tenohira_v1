@@ -1,0 +1,24 @@
+import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
+import TreatmentSection from '@/components/TreatmentSection';
+import PriceSection from '@/components/PriceSection';
+import AccessSection from '@/components/AccessSection';
+import Footer from '@/components/Footer';
+
+export default function Home() {
+  return (
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <div className="section-divider" />
+        <TreatmentSection />
+        <div className="section-divider" />
+        <PriceSection />
+        <div className="section-divider" />
+        <AccessSection />
+      </main>
+      <Footer />
+    </>
+  );
+}
