@@ -71,3 +71,4 @@ tenohira_seikotsu/
 - **入力値の検証**: フォーム等を追加する場合はサニタイズを徹底
 - **依存関係**: npm packageは信頼できるもののみ使用し、定期的に脆弱性チェック（`npm audit`）を実施
 <!-- trigger deploy -->
+<!-- trigger deploy -->
